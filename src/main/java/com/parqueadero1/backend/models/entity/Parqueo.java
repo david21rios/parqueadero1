@@ -20,7 +20,7 @@ public class Parqueo implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
-	@Column(unique = true, length = 6)
+	@Column(unique = true, length = 10)
 	private String placa;
 	@Column(name = "fecha_hora_ingreso")
 	private Date fechaHoraIngreso;
